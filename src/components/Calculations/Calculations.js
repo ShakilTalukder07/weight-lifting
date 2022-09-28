@@ -1,7 +1,7 @@
 import React from 'react';
 import './Calculations.css'
 
-const Calculations = () => {
+const Calculations = (props) => {
     return (
         <div>
             

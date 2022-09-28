@@ -2,3 +2,12 @@
   display: grid;
   grid-template-columns: 4fr,1fr;
 }
+.navbar{
+  font-size: x-large;
+  margin: 30px;
+  font-weight: 800;
+}
+.exercise-list{
+  font-weight: 400;
+  margin: 30px;
+}
