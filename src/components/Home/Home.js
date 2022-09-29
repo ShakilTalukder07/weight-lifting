@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Calculations from '../Calculations/Calculations';
 import Cards from '../Cards/Cards';
 import './Home.css'
 
@@ -28,7 +27,7 @@ const Home = () => {
             <div className="right-side">
                 <div>
                     <h3>Shakil Ahmed</h3>
-                    <p><small>Dhaka, Bangladesh</small></p>
+                    <p><small>Web Developer</small></p>
                     <div className='user-details'>
                         <h3>75 <small>kg</small></h3>
                         <h3>5.8 <small>feet</small></h3>

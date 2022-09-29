@@ -1,22 +1,17 @@
 import React from 'react';
-import SingleCard from '../Calculations/SingleCard/SingleCard';
 import './Cards.css'
 
-const Cards = ({ heading, img, age, timeRequired }) => {
+const Cards = (props) => {
+    console.log(props.product)
+    const {picture,heading, age, timeRequired} = props.product
     return (
         <div>
-
-            <div className="card-container" >
-                {
-                    Cards.map(card => <SingleCard
-                        key={card.id}
-                        heading={heading}
-                        img={img}
-                        age={age}
-                        timeRequired={timeRequired}
-                    ></SingleCard>)
-                }
-               
+            <div className="card" >
+                <img src={picture} alt="" />
+                <h3>{heading}</h3>
+                <p>For age: {age}</p>
+                <p>Time required: {timeRequired}</p>
+                <button>Add to list</button>
             </div>
         </div>
 
