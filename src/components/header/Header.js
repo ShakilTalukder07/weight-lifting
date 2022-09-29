@@ -7,7 +7,7 @@ const Header = () => {
         <nav className='nav'>
             <div className="nav-logo">
                 <img className="logo" src={logo} alt="" />
-                <h1>gYm Club </h1>
+                <h1>Weight Lifting</h1>
             </div>
         </nav>
     );

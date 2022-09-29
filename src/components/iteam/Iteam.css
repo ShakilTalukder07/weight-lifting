@@ -31,11 +31,11 @@
     position: absolute;
     bottom: 0;
     color: white;
-    background-color: pink;
+    background-color: blueviolet;
     cursor: pointer;
 }
 
 .list-btn:hover {
     color: #000;
-    background-color: orange;
+    background-color: rgb(242, 219, 178);
 }
