@@ -2,7 +2,7 @@ import React from 'react';
 import './Cards.css'
 
 const Cards = (props) => {
-    console.log(props.product)
+    // console.log(props.product)
     const {picture,heading, age, timeRequired} = props.product
     return (
         <div>
